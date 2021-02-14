@@ -2,7 +2,7 @@
   Description:  C FILE
 
 ************************************************************************************/
-#include "moving_average_with_circular_buffer_V2.0.h"
+#include "filter.h"
 
 /************************************************************************************
 Private global functions
@@ -12,12 +12,7 @@ static void M_OutputBufferFilled();
 static void M_InputCircularBuffer(FP value);
 static FP M_getOldestValue();
 static void M_OutputOldestIndex();
-static void M_OutputWholeBuffer();
-static void M_ResetMovingAverage();
 static void M_UpdateMovingAverage();
-static void M_AddValues(U32 n);
-static void M_InitCircularBuffer();
-static void M_InitMovingAverage();
 
 
 /************************************************************************************
@@ -34,37 +29,85 @@ Exported variables
 Exported functions
 ************************************************************************************/
 
+/************************************************************************************
+* Description :
+* Arguments   :
+* Return Value:
+************************************************************************************/
+void Filter_InitCircularBuffer()
+{
+    memset(&m_circularBuffer, 0, sizeof (LEVEL_CIRCULAR_BUFFER_T));
+}
 
 
 /************************************************************************************
-* Description : Stub function
-* Arguments   : -
-* Return Value: -
+* Description :
+* Arguments   :
+* Return Value:
 ************************************************************************************/
-
-
-
-int main(void)
+void Filter_InitMovingAverage()
 {
-    M_InitCircularBuffer(&m_circularBuffer);
-    M_InitMovingAverage(&m_movingAverage);
-
-
-    M_OutputWholeBuffer(); printf("\n\n");
-
-    M_AddValues(13);
-
-    M_ResetMovingAverage();
-    
-    M_AddValues(3);
-
-    M_ResetMovingAverage();
-    M_OutputWholeBuffer();
-    
-
-    
-    return 0;
+    memset(&m_movingAverage, 0, sizeof (LEVEL_MOVING_AVERAGE_T));
 }
+
+
+/************************************************************************************
+* Description :
+* Arguments   :
+* Return Value:
+************************************************************************************/
+void Filter_OutputWholeBuffer()
+{
+    printf("BUFFER:   ");
+    for (U32 i = 0; i < SIZE_CIRCULAR_BUFFER; i++)
+    {
+        printf("%" PRIf "   ", m_circularBuffer.circularBuffer[i]);
+    }
+    printf("\n");
+}
+
+/************************************************************************************
+* Description :
+* Arguments   :
+* Return Value:
+************************************************************************************/
+void Filter_AddValues(U32 n)
+{
+    U64 val = 0;
+    for (U32 i=0; i < n; i++)
+    {
+        val = val + 2;
+        printf("%" PRIu32 ". INPUT\n", i);
+        M_InputCircularBuffer((FP) val);
+        M_UpdateMovingAverage();
+        printf("%" PRIu32 ". UPDATED MOVING AVERAGE: %" PRIf "\n", i, m_movingAverage.movingAverage);
+        printf("%" PRIu32 ". OUTPUT\n", i);
+        M_OutputOldestIndex();
+        printf("%" PRIu32 ". END\n", i);
+        printf("Buffer size used: %" PRIu32 "\n", m_circularBuffer.bufferSizeUsed);
+        M_OutputBufferFilled();
+        Filter_OutputWholeBuffer();
+        printf("\n");
+    }
+}
+
+/************************************************************************************
+* Description :
+* Arguments   :
+* Return Value:
+************************************************************************************/
+void Filter_ResetMovingAverage()
+{
+    memset(&m_circularBuffer, 0, sizeof m_circularBuffer);
+    memset(&m_movingAverage, 0, sizeof m_movingAverage);
+
+    printf("RESET BUFFER *****************************************\n\n");
+}
+
+
+
+
+
 
 
 
@@ -156,34 +199,7 @@ static void M_OutputOldestIndex()
 }
 
 
-/************************************************************************************
-* Description :
-* Arguments   :
-* Return Value:
-************************************************************************************/
-static void M_OutputWholeBuffer()
-{
-    printf("BUFFER:   ");
-    for (U32 i = 0; i < SIZE_CIRCULAR_BUFFER; i++)
-    {
-        printf("%" PRIf "   ", m_circularBuffer.circularBuffer[i]);
-    }
-    printf("\n");
-}
 
-
-/************************************************************************************
-* Description :
-* Arguments   :
-* Return Value:
-************************************************************************************/
-static void M_ResetMovingAverage()
-{
-    memset(&m_circularBuffer, 0, sizeof m_circularBuffer);
-    memset(&m_movingAverage, 0, sizeof m_movingAverage);
-
-    printf("RESET BUFFER *****************************************\n\n");
-}
 
 
 /************************************************************************************
@@ -205,52 +221,4 @@ static void M_UpdateMovingAverage()
     }
 
     m_movingAverage.movingAverage = m_movingAverage.sum/m_movingAverage.elementsInSum;
-}
-
-
-/************************************************************************************
-* Description :
-* Arguments   :
-* Return Value:
-************************************************************************************/
-static void M_AddValues(U32 n)
-{
-    U64 val = 0;
-    for (U32 i=0; i < n; i++)
-    {
-        val = val + 2;
-        printf("%" PRIu32 ". INPUT\n", i);
-        M_InputCircularBuffer((FP) val);
-        M_UpdateMovingAverage();
-        printf("%" PRIu32 ". UPDATED MOVING AVERAGE: %" PRIf "\n", i, m_movingAverage.movingAverage);
-        printf("%" PRIu32 ". OUTPUT\n", i);
-        M_OutputOldestIndex();
-        printf("%" PRIu32 ". END\n", i);
-        printf("Buffer size used: %" PRIu32 "\n", m_circularBuffer.bufferSizeUsed);
-        M_OutputBufferFilled();
-        M_OutputWholeBuffer();
-        printf("\n");
-    }
-}
-
-
-/************************************************************************************
-* Description :
-* Arguments   :
-* Return Value:
-************************************************************************************/
-static void M_InitCircularBuffer()
-{
-    memset(&m_circularBuffer, 0, sizeof (LEVEL_CIRCULAR_BUFFER_T));
-}
-
-
-/************************************************************************************
-* Description :
-* Arguments   :
-* Return Value:
-************************************************************************************/
-static void M_InitMovingAverage()
-{
-    memset(&m_movingAverage, 0, sizeof (LEVEL_MOVING_AVERAGE_T));
 }

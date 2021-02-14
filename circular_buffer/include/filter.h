@@ -1,5 +1,5 @@
-#ifndef MOVING_AVERAGE_WITH_CIRCULAR_BUFFER_H
-#define MOVING_AVERAGE_WITH_CIRCULAR_BUFFER
+#ifndef FILTER_H
+#define FILTER_H
 
 /*******************************************************************************
   Description:
@@ -59,4 +59,11 @@ Exported variables
 /******************************************************************************
 Exported functions
 ******************************************************************************/
+void Filter_InitCircularBuffer();
+void Filter_InitMovingAverage();
+void Filter_OutputWholeBuffer();
+void Filter_AddValues(U32 n);
+void Filter_ResetMovingAverage();
+
+
 #endif
