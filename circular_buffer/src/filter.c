@@ -7,7 +7,6 @@
 /************************************************************************************
 Private global functions
 ************************************************************************************/
-static BOOL M_IsBufferFilled();
 static void M_OutputBufferFilled();
 static void M_InputCircularBuffer(FP value);
 static FP M_getOldestValue();
@@ -77,7 +76,7 @@ void Filter_OutputBuffer()
 * Arguments   :
 * Return Value:
 ************************************************************************************/
-void Filter_AddValues(U32 n)
+void Filter_AddSomeValues(U32 n)
 {
     U64 val = 0;
     for (U32 i=0; i < n; i++)
@@ -95,6 +94,17 @@ void Filter_AddValues(U32 n)
         Filter_OutputBuffer();
         printf("\n");
     }
+}
+
+/************************************************************************************
+* Description : Adds some test values
+* Arguments   :
+* Return Value:
+************************************************************************************/
+void Filter_Update(FP data)
+{
+    M_InputCircularBuffer(data);
+    M_UpdateMovingAverage();
 }
 
 /************************************************************************************
@@ -120,6 +130,18 @@ void Filter_Reset(U32 bufferSize)
 }
 
 
+/************************************************************************************
+* Description :
+* Arguments   :
+* Return Value:
+************************************************************************************/
+BOOL M_IsBufferFilled()
+{
+    if (m_circularBuffer.bufferSizeUsed == m_circularBuffer.bufferSize)
+        return TRUE;
+    else
+        return FALSE;
+}
 
 
 
@@ -133,18 +155,7 @@ Private functions
 ************************************************************************************/
 
 
-/************************************************************************************
-* Description :
-* Arguments   :
-* Return Value:
-************************************************************************************/
-static BOOL M_IsBufferFilled()
-{
-    if (m_circularBuffer.bufferSizeUsed == m_circularBuffer.bufferSize)
-        return TRUE;
-    else
-        return FALSE;
-}
+
 
 
 /************************************************************************************

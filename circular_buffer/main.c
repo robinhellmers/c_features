@@ -6,20 +6,20 @@
 
 int main(void)
 {
-    Filter_InitCircularBuffer(5);
+    Filter_InitCircularBuffer(1);
     Filter_InitMovingAverage();
 
 
     Filter_OutputBuffer(); printf("\n\n");
 
-    Filter_AddValues(13);
+    Filter_AddSomeValues(13);
 
     Filter_Reset(2); 
     
-    Filter_AddValues(3);
+    Filter_AddSomeValues(3);
 
     Filter_Reset(10);
-    Filter_AddValues(11);
+    Filter_AddSomeValues(11);
 
     Filter_Reset(0);
     Filter_OutputBuffer();

@@ -66,9 +66,9 @@ Exported functions
 void Filter_InitCircularBuffer(U32 bufferSize);
 void Filter_InitMovingAverage();
 void Filter_OutputBuffer();
-void Filter_AddValues(U32 n);
+void Filter_AddSomeValues(U32 n);
+void Filter_Update(FP data);
 void Filter_Reset(U32 bufferSize);
-void Filter_NewSize(U32 bufferSize);
-
+BOOL M_IsBufferFilled();
 
 #endif
