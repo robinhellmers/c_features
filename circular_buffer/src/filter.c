@@ -34,11 +34,18 @@ Exported functions
 * Arguments   :
 * Return Value:
 ************************************************************************************/
-void Filter_InitCircularBuffer()
+void Filter_InitCircularBuffer(U32 bufferSize)
 {
     memset(&m_circularBuffer, 0, sizeof (LEVEL_CIRCULAR_BUFFER_T));
+    
+    if (bufferSize > MAX_SIZE_CIRCULAR_BUFFER)
+        m_circularBuffer.bufferSize = MAX_SIZE_CIRCULAR_BUFFER;
+    else if (bufferSize == 0)
+        m_circularBuffer.bufferSize = SIZE_CIRCULAR_BUFFER_MEDIUM;
+    else
+        m_circularBuffer.bufferSize = bufferSize;
+    
 }
-
 
 /************************************************************************************
 * Description :
@@ -50,16 +57,15 @@ void Filter_InitMovingAverage()
     memset(&m_movingAverage, 0, sizeof (LEVEL_MOVING_AVERAGE_T));
 }
 
-
 /************************************************************************************
-* Description :
+* Description : Output buffer part set to be used
 * Arguments   :
 * Return Value:
 ************************************************************************************/
-void Filter_OutputWholeBuffer()
+void Filter_OutputBuffer()
 {
     printf("BUFFER:   ");
-    for (U32 i = 0; i < SIZE_CIRCULAR_BUFFER; i++)
+    for (U32 i = 0; i < m_circularBuffer.bufferSize; i++)
     {
         printf("%" PRIf "   ", m_circularBuffer.circularBuffer[i]);
     }
@@ -67,7 +73,7 @@ void Filter_OutputWholeBuffer()
 }
 
 /************************************************************************************
-* Description :
+* Description : Adds some test values
 * Arguments   :
 * Return Value:
 ************************************************************************************/
@@ -86,23 +92,33 @@ void Filter_AddValues(U32 n)
         printf("%" PRIu32 ". END\n", i);
         printf("Buffer size used: %" PRIu32 "\n", m_circularBuffer.bufferSizeUsed);
         M_OutputBufferFilled();
-        Filter_OutputWholeBuffer();
+        Filter_OutputBuffer();
         printf("\n");
     }
 }
 
 /************************************************************************************
-* Description :
-* Arguments   :
-* Return Value:
+* Description : Resets circular buffer and moving average
+* Arguments   : bufferSize - Size to use in buffer
+                             0 = same size as before
+                            >MAX_SIZE_CIRCULAR_BUFFER = MAX_SIZE_CIRCULAR_BUFFER
+* Return Value: NONE
 ************************************************************************************/
-void Filter_ResetMovingAverage()
+void Filter_Reset(U32 bufferSize)
 {
+    if (bufferSize > MAX_SIZE_CIRCULAR_BUFFER)
+        bufferSize = MAX_SIZE_CIRCULAR_BUFFER;
+    else if (bufferSize == 0)
+        bufferSize = m_circularBuffer.bufferSize;
+
     memset(&m_circularBuffer, 0, sizeof m_circularBuffer);
     memset(&m_movingAverage, 0, sizeof m_movingAverage);
 
+    m_circularBuffer.bufferSize = bufferSize;
+
     printf("RESET BUFFER *****************************************\n\n");
 }
+
 
 
 
@@ -124,7 +140,7 @@ Private functions
 ************************************************************************************/
 static BOOL M_IsBufferFilled()
 {
-    if (m_circularBuffer.bufferSizeUsed == SIZE_CIRCULAR_BUFFER)
+    if (m_circularBuffer.bufferSizeUsed == m_circularBuffer.bufferSize)
         return TRUE;
     else
         return FALSE;
@@ -157,15 +173,15 @@ static void M_InputCircularBuffer(FP value)
     m_circularBuffer.circularBuffer[m_circularBuffer.writeIndex] = value;
     m_circularBuffer.newestIndex = m_circularBuffer.writeIndex;
 
-    if (m_circularBuffer.writeIndex + 1 == SIZE_CIRCULAR_BUFFER) // End of buffer
+    if (m_circularBuffer.writeIndex + 1 == m_circularBuffer.bufferSize) // End of buffer
         m_circularBuffer.writeIndex = 0;
     else
         m_circularBuffer.writeIndex++;
 
 
-    if (m_circularBuffer.bufferSizeUsed == SIZE_CIRCULAR_BUFFER)
+    if (m_circularBuffer.bufferSizeUsed == m_circularBuffer.bufferSize)
     {
-        if (m_circularBuffer.oldestIndex + 1 == SIZE_CIRCULAR_BUFFER) // End of buffer
+        if (m_circularBuffer.oldestIndex + 1 == m_circularBuffer.bufferSize) // End of buffer
             m_circularBuffer.oldestIndex = 0;
         else
             m_circularBuffer.oldestIndex++;
@@ -209,7 +225,7 @@ static void M_OutputOldestIndex()
 ************************************************************************************/
 static void M_UpdateMovingAverage()
 {
-    if (m_movingAverage.elementsInSum < SIZE_CIRCULAR_BUFFER)
+    if (m_movingAverage.elementsInSum < m_circularBuffer.bufferSize)
     {
         m_movingAverage.sum += m_circularBuffer.circularBuffer[m_circularBuffer.newestIndex];
         m_movingAverage.elementsInSum++;

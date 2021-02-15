@@ -7504,154 +7504,154 @@
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@55@macro@MOVING_AVERAGE_WITH_CIRCULAR_BUFFER",
+    "ID": "c:filter.h@55@macro@MOVING_AVERAGE_WITH_CIRCULAR_BUFFER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MOVING_AVERAGE_WITH_CIRCULAR_BUFFER",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "MOVING_AVERAGE_WITH_CIRCULAR_BUFFER",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@724@macro@SIZE_CIRCULAR_BUFFER",
+    "ID": "c:filter.h@724@macro@SIZE_CIRCULAR_BUFFER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SIZE_CIRCULAR_BUFFER",
     "location": {
       "column": "9",
       "line": "19",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "SIZE_CIRCULAR_BUFFER",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@758@macro@PRIf",
+    "ID": "c:filter.h@758@macro@PRIf",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PRIf",
     "location": {
       "column": "9",
       "line": "21",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "PRIf",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@781@macro@PRIbool",
+    "ID": "c:filter.h@781@macro@PRIbool",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PRIbool",
     "location": {
       "column": "9",
       "line": "22",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "PRIbool",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@804@macro@TRUE",
+    "ID": "c:filter.h@804@macro@TRUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TRUE",
     "location": {
       "column": "9",
       "line": "23",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "TRUE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@823@macro@FALSE",
+    "ID": "c:filter.h@823@macro@FALSE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "FALSE",
     "location": {
       "column": "9",
       "line": "24",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "FALSE",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@T@U8",
+    "ID": "c:filter.h@T@U8",
     "What": "Typedef",
     "defdec": "Def",
     "display": "uint8_t",
     "location": {
       "column": "21",
       "line": "26",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "U8",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@T@U32",
+    "ID": "c:filter.h@T@U32",
     "What": "Typedef",
     "defdec": "Def",
     "display": "uint32_t",
     "location": {
       "column": "21",
       "line": "27",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "U32",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@T@U64",
+    "ID": "c:filter.h@T@U64",
     "What": "Typedef",
     "defdec": "Def",
     "display": "uint64_t",
     "location": {
       "column": "21",
       "line": "28",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "U64",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@T@FP",
+    "ID": "c:filter.h@T@FP",
     "What": "Typedef",
     "defdec": "Def",
     "display": "float",
     "location": {
       "column": "21",
       "line": "29",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "FP",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.h@T@BOOL",
+    "ID": "c:filter.h@T@BOOL",
     "What": "Typedef",
     "defdec": "Def",
     "display": "uint8_t",
     "location": {
       "column": "21",
       "line": "30",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "name": "BOOL",
     "origin": "user_include",
@@ -7665,7 +7665,7 @@
     "location": {
       "column": "9",
       "line": "35",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "members": [
       {
@@ -7676,11 +7676,11 @@
         "location": {
           "column": "8",
           "line": "37",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "circularBuffer",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_35_9"
+        "scope": "_anonymous_filter_h_35_9"
       },
       {
         "ID": "c:@SA@LEVEL_CIRCULAR_BUFFER_T@FI@bufferSizeUsed",
@@ -7690,11 +7690,11 @@
         "location": {
           "column": "9",
           "line": "39",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "bufferSizeUsed",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_35_9"
+        "scope": "_anonymous_filter_h_35_9"
       },
       {
         "ID": "c:@SA@LEVEL_CIRCULAR_BUFFER_T@FI@writeIndex",
@@ -7704,11 +7704,11 @@
         "location": {
           "column": "9",
           "line": "41",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "writeIndex",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_35_9"
+        "scope": "_anonymous_filter_h_35_9"
       },
       {
         "ID": "c:@SA@LEVEL_CIRCULAR_BUFFER_T@FI@oldestIndex",
@@ -7718,11 +7718,11 @@
         "location": {
           "column": "9",
           "line": "42",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "oldestIndex",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_35_9"
+        "scope": "_anonymous_filter_h_35_9"
       },
       {
         "ID": "c:@SA@LEVEL_CIRCULAR_BUFFER_T@FI@newestIndex",
@@ -7732,11 +7732,11 @@
         "location": {
           "column": "9",
           "line": "43",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "newestIndex",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_35_9"
+        "scope": "_anonymous_filter_h_35_9"
       },
       {
         "ID": "c:@SA@LEVEL_CIRCULAR_BUFFER_T@FI@oldValue",
@@ -7746,25 +7746,25 @@
         "location": {
           "column": "8",
           "line": "45",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "oldValue",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_35_9"
+        "scope": "_anonymous_filter_h_35_9"
       },
       {
-        "ID": "c:moving_average_with_circular_buffer_V2.0.h@T@LEVEL_CIRCULAR_BUFFER_T",
+        "ID": "c:filter.h@T@LEVEL_CIRCULAR_BUFFER_T",
         "What": "TypedefDecl",
         "defdec": "Def",
         "display": "struct LEVEL_CIRCULAR_BUFFER_T",
         "location": {
           "column": "2",
           "line": "46",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "LEVEL_CIRCULAR_BUFFER_T",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_35_9"
+        "scope": "_anonymous_filter_h_35_9"
       }
     ],
     "name": "",
@@ -7779,7 +7779,7 @@
     "location": {
       "column": "9",
       "line": "48",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
     },
     "members": [
       {
@@ -7790,11 +7790,11 @@
         "location": {
           "column": "8",
           "line": "50",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "sum",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_48_9"
+        "scope": "_anonymous_filter_h_48_9"
       },
       {
         "ID": "c:@SA@LEVEL_MOVING_AVERAGE_T@FI@movingAverage",
@@ -7804,11 +7804,11 @@
         "location": {
           "column": "8",
           "line": "51",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "movingAverage",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_48_9"
+        "scope": "_anonymous_filter_h_48_9"
       },
       {
         "ID": "c:@SA@LEVEL_MOVING_AVERAGE_T@FI@elementsInSum",
@@ -7818,28 +7818,98 @@
         "location": {
           "column": "9",
           "line": "52",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "elementsInSum",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_48_9"
+        "scope": "_anonymous_filter_h_48_9"
       },
       {
-        "ID": "c:moving_average_with_circular_buffer_V2.0.h@T@LEVEL_MOVING_AVERAGE_T",
+        "ID": "c:filter.h@T@LEVEL_MOVING_AVERAGE_T",
         "What": "TypedefDecl",
         "defdec": "Def",
         "display": "struct LEVEL_MOVING_AVERAGE_T",
         "location": {
           "column": "2",
           "line": "53",
-          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.h"
+          "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
         },
         "name": "LEVEL_MOVING_AVERAGE_T",
         "origin": "user_include",
-        "scope": "_anonymous_moving_average_with_circular_buffer_V2_0_h_48_9"
+        "scope": "_anonymous_filter_h_48_9"
       }
     ],
     "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_InitCircularBuffer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Filter_InitCircularBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "62",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
+    },
+    "name": "Filter_InitCircularBuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_InitMovingAverage",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Filter_InitMovingAverage(void)",
+    "location": {
+      "column": "6",
+      "line": "63",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
+    },
+    "name": "Filter_InitMovingAverage",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_OutputWholeBuffer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Filter_OutputWholeBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
+    },
+    "name": "Filter_OutputWholeBuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_AddValues",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Filter_AddValues(U32)",
+    "location": {
+      "column": "6",
+      "line": "65",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
+    },
+    "name": "Filter_AddValues",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_ResetMovingAverage",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Filter_ResetMovingAverage(void)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.h"
+    },
+    "name": "Filter_ResetMovingAverage",
     "origin": "user_include",
     "scope": null
   },
@@ -7956,184 +8026,310 @@
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_IsBufferFilled",
+    "ID": "c:filter.c@F@M_IsBufferFilled",
     "What": "Function",
     "defdec": "Dec",
     "display": "BOOL M_IsBufferFilled(void)",
     "location": {
       "column": "13",
       "line": "10",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "M_IsBufferFilled",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_OutputBufferFilled",
+    "ID": "c:filter.c@F@M_OutputBufferFilled",
     "What": "Function",
     "defdec": "Dec",
     "display": "void M_OutputBufferFilled(void)",
     "location": {
       "column": "13",
       "line": "11",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "M_OutputBufferFilled",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_InputCircularBuffer",
+    "ID": "c:filter.c@F@M_InputCircularBuffer",
     "What": "Function",
     "defdec": "Dec",
     "display": "void M_InputCircularBuffer(FP)",
     "location": {
       "column": "13",
       "line": "12",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "M_InputCircularBuffer",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_getOldestValue",
+    "ID": "c:filter.c@F@M_getOldestValue",
     "What": "Function",
     "defdec": "Dec",
     "display": "FP M_getOldestValue(void)",
     "location": {
       "column": "11",
       "line": "13",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "M_getOldestValue",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_OutputOldestIndex",
+    "ID": "c:filter.c@F@M_OutputOldestIndex",
     "What": "Function",
     "defdec": "Dec",
     "display": "void M_OutputOldestIndex(void)",
     "location": {
       "column": "13",
       "line": "14",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "M_OutputOldestIndex",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_OutputWholeBuffer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void M_OutputWholeBuffer(void)",
-    "location": {
-      "column": "13",
-      "line": "15",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_OutputWholeBuffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_ResetMovingAverage",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void M_ResetMovingAverage(void)",
-    "location": {
-      "column": "13",
-      "line": "16",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_ResetMovingAverage",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_UpdateMovingAverage",
+    "ID": "c:filter.c@F@M_UpdateMovingAverage",
     "What": "Function",
     "defdec": "Dec",
     "display": "void M_UpdateMovingAverage(void)",
     "location": {
       "column": "13",
-      "line": "17",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "line": "15",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "M_UpdateMovingAverage",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_AddValues",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void M_AddValues(U32)",
-    "location": {
-      "column": "13",
-      "line": "18",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_AddValues",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_InitCircularBuffer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void M_InitCircularBuffer(void)",
-    "location": {
-      "column": "13",
-      "line": "19",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_InitCircularBuffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_InitMovingAverage",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void M_InitMovingAverage(void)",
-    "location": {
-      "column": "13",
-      "line": "20",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_InitMovingAverage",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@m_circularBuffer",
+    "ID": "c:filter.c@m_circularBuffer",
     "What": "Variable",
     "defdec": "Dec",
     "display": "m_circularBuffer",
     "location": {
       "column": "32",
-      "line": "26",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "line": "21",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "m_circularBuffer",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@m_movingAverage",
+    "ID": "c:filter.c@m_movingAverage",
     "What": "Variable",
     "defdec": "Dec",
     "display": "m_movingAverage",
     "location": {
       "column": "31",
-      "line": "27",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "line": "22",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
     },
     "name": "m_movingAverage",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_InitCircularBuffer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Filter_InitCircularBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "37",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "Filter_InitCircularBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_InitMovingAverage",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Filter_InitMovingAverage(void)",
+    "location": {
+      "column": "6",
+      "line": "48",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "Filter_InitMovingAverage",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_OutputWholeBuffer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Filter_OutputWholeBuffer(void)",
+    "location": {
+      "column": "6",
+      "line": "59",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "Filter_OutputWholeBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@2310@F@Filter_OutputWholeBuffer@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "62",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_AddValues",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Filter_AddValues(U32)",
+    "location": {
+      "column": "6",
+      "line": "74",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "Filter_AddValues",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@2722@F@Filter_AddValues@val",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "val",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "val",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@2745@F@Filter_AddValues@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "77",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Filter_ResetMovingAverage",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Filter_ResetMovingAverage(void)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "Filter_ResetMovingAverage",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@F@M_IsBufferFilled",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "BOOL M_IsBufferFilled(void)",
+    "location": {
+      "column": "13",
+      "line": "125",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "M_IsBufferFilled",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@F@M_OutputBufferFilled",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void M_OutputBufferFilled(void)",
+    "location": {
+      "column": "13",
+      "line": "139",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "M_OutputBufferFilled",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@F@M_InputCircularBuffer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void M_InputCircularBuffer(FP)",
+    "location": {
+      "column": "13",
+      "line": "154",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "M_InputCircularBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@F@M_getOldestValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "FP M_getOldestValue(void)",
+    "location": {
+      "column": "11",
+      "line": "183",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "M_getOldestValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@F@M_OutputOldestIndex",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void M_OutputOldestIndex(void)",
+    "location": {
+      "column": "13",
+      "line": "194",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "M_OutputOldestIndex",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:filter.c@F@M_UpdateMovingAverage",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void M_UpdateMovingAverage(void)",
+    "location": {
+      "column": "13",
+      "line": "210",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\filter.c"
+    },
+    "name": "M_UpdateMovingAverage",
     "origin": "project_file",
     "scope": null
   },
@@ -8144,206 +8340,10 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "45",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
+      "line": "7",
+      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\main.c"
     },
     "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_IsBufferFilled",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "BOOL M_IsBufferFilled(void)",
-    "location": {
-      "column": "13",
-      "line": "80",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_IsBufferFilled",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_OutputBufferFilled",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_OutputBufferFilled(void)",
-    "location": {
-      "column": "13",
-      "line": "94",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_OutputBufferFilled",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_InputCircularBuffer",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_InputCircularBuffer(FP)",
-    "location": {
-      "column": "13",
-      "line": "109",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_InputCircularBuffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_getOldestValue",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "FP M_getOldestValue(void)",
-    "location": {
-      "column": "11",
-      "line": "138",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_getOldestValue",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_OutputOldestIndex",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_OutputOldestIndex(void)",
-    "location": {
-      "column": "13",
-      "line": "149",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_OutputOldestIndex",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_OutputWholeBuffer",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_OutputWholeBuffer(void)",
-    "location": {
-      "column": "13",
-      "line": "162",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_OutputWholeBuffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@5249@F@M_OutputWholeBuffer@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "14",
-      "line": "165",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_ResetMovingAverage",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_ResetMovingAverage(void)",
-    "location": {
-      "column": "13",
-      "line": "178",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_ResetMovingAverage",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_UpdateMovingAverage",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_UpdateMovingAverage(void)",
-    "location": {
-      "column": "13",
-      "line": "192",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_UpdateMovingAverage",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_AddValues",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_AddValues(U32)",
-    "location": {
-      "column": "13",
-      "line": "214",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_AddValues",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@6898@F@M_AddValues@val",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "val",
-    "location": {
-      "column": "9",
-      "line": "216",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "val",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@6921@F@M_AddValues@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "14",
-      "line": "217",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_InitCircularBuffer",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_InitCircularBuffer(void)",
-    "location": {
-      "column": "13",
-      "line": "240",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_InitCircularBuffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:moving_average_with_circular_buffer_V2.0.c@F@M_InitMovingAverage",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void M_InitMovingAverage(void)",
-    "location": {
-      "column": "13",
-      "line": "251",
-      "path": "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\moving_average_with_circular_buffer_V2.0.c"
-    },
-    "name": "M_InitMovingAverage",
     "origin": "project_file",
     "scope": null
   }

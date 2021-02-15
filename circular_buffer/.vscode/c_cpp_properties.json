@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer"
+                "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer",
+                "C:\\Users\\Robin.Hellmers\\OneDrive\\Skolmaterial\\Examensarbete\\Code\\Circular_buffer\\circular_buffer\\inc"
             ],
             "defines": [
                 "_DEBUG",

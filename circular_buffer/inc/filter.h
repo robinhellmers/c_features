@@ -16,7 +16,10 @@ Includes
 /******************************************************************************
 Defines and enums
 ******************************************************************************/
-#define SIZE_CIRCULAR_BUFFER 5
+#define SIZE_CIRCULAR_BUFFER_MEDIUM 20
+#define SIZE_CIRCULAR_BUFFER_FAST   5
+#define SIZE_CIRCULAR_BUFFER_SLOW   100
+#define MAX_SIZE_CIRCULAR_BUFFER    300
 
 #define PRIf    ".3f"
 #define PRIbool PRIu8
@@ -34,9 +37,10 @@ Struct and unions
 ******************************************************************************/
 typedef struct
 {
-    FP circularBuffer[SIZE_CIRCULAR_BUFFER];
+    FP circularBuffer[MAX_SIZE_CIRCULAR_BUFFER];
 
     U32 bufferSizeUsed;
+    U32 bufferSize;
 
     U32 writeIndex;
     U32 oldestIndex;
@@ -59,11 +63,12 @@ Exported variables
 /******************************************************************************
 Exported functions
 ******************************************************************************/
-void Filter_InitCircularBuffer();
+void Filter_InitCircularBuffer(U32 bufferSize);
 void Filter_InitMovingAverage();
-void Filter_OutputWholeBuffer();
+void Filter_OutputBuffer();
 void Filter_AddValues(U32 n);
-void Filter_ResetMovingAverage();
+void Filter_Reset(U32 bufferSize);
+void Filter_NewSize(U32 bufferSize);
 
 
 #endif

@@ -2308,9 +2308,12 @@
         </settings>
     </configuration>
     <file>
-        <name>$PROJ_DIR$\moving_average_with_circular_buffer_V2.0.c</name>
+        <name>$PROJ_DIR$\filter.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\moving_average_with_circular_buffer_V2.0.h</name>
+        <name>$PROJ_DIR$\filter.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\main.c</name>
     </file>
 </project>
