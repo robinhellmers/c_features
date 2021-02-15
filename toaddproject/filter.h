@@ -4,7 +4,7 @@
 /*******************************************************************************
   Description:
 *******************************************************************************/
-
+ 
 /******************************************************************************
 Includes
 ******************************************************************************/
@@ -16,12 +16,10 @@ Includes
 /******************************************************************************
 Defines and enums
 ******************************************************************************/
-#define LEVEL_SCALE_SENSORS         5
-
 #define SIZE_CIRCULAR_BUFFER_MEDIUM 20
 #define SIZE_CIRCULAR_BUFFER_FAST   5
 #define SIZE_CIRCULAR_BUFFER_SLOW   100
-#define MAX_SIZE_CIRCULAR_BUFFER    100
+#define MAX_SIZE_CIRCULAR_BUFFER    300
 
 #define PRIf    ".3f"
 #define PRIbool PRIu8
@@ -65,13 +63,13 @@ Exported variables
 /******************************************************************************
 Exported functions
 ******************************************************************************/
-void Filter_InitCircularBuffers(U32 bufferSize);
+void Filter_InitCircularBuffer(U32 bufferSize);
 void Filter_InitMovingAverage();
-void Filter_OutputBuffer(U8 index);
-void Filter_OutputBuffers();
-void Filter_AddSomeValues(U32 n, U8 index);
-void Filter_Update(FP data, U8 index);
-void Filter_Reset(U32 bufferSize, U8 index);
-BOOL M_IsBufferFilled(U8 index);
+void Filter_AddSomeValues(U32 n);
+void Filter_Update(FP data);
+void Filter_Reset(U32 bufferSize);
+void Filter_OutputBuffer();
+BOOL M_IsBufferFilled();
+
 
 #endif

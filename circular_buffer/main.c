@@ -6,23 +6,38 @@
 
 int main(void)
 {
-    Filter_InitCircularBuffer(1);
+    Filter_InitCircularBuffers(5); 
     Filter_InitMovingAverage();
 
 
-    Filter_OutputBuffer(); printf("\n\n");
+    Filter_OutputBuffers(); printf("\n\n");
 
-    Filter_AddSomeValues(13);
+    Filter_AddSomeValues(13, 0);
+    Filter_OutputBuffers(); printf("\n\n");
 
-    Filter_Reset(2); 
+    Filter_Reset(2, 0);
+    Filter_OutputBuffers(); printf("\n\n");
     
-    Filter_AddSomeValues(3);
+    Filter_AddSomeValues(3, 0);
+    Filter_OutputBuffers(); printf("\n\n");
 
-    Filter_Reset(10);
-    Filter_AddSomeValues(11);
+    Filter_Reset(10, 0);
+    Filter_OutputBuffers(); printf("\n\n");
+    Filter_AddSomeValues(11, 0);
+    Filter_OutputBuffers(); printf("\n\n");
 
-    Filter_Reset(0);
-    Filter_OutputBuffer();
+    Filter_Reset(3, 2);
+    Filter_OutputBuffers();
+    Filter_AddSomeValues(2, 2);
+    Filter_OutputBuffers();
+
+    Filter_Reset(7, 4);
+    Filter_OutputBuffers();
+    Filter_AddSomeValues(9, 4);
+    Filter_OutputBuffers();
+
+    Filter_AddSomeValues(3, 2);
+    Filter_OutputBuffers();
     
 
     
