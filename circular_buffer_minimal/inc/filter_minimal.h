@@ -16,10 +16,12 @@ Includes
 /******************************************************************************
 Defines and enums
 ******************************************************************************/
+#define LEVEL_SCALE_SENSORS         5
+
 #define SIZE_CIRCULAR_BUFFER_MEDIUM 20
 #define SIZE_CIRCULAR_BUFFER_FAST   5
 #define SIZE_CIRCULAR_BUFFER_SLOW   100
-#define MAX_SIZE_CIRCULAR_BUFFER    300
+#define MAX_SIZE_CIRCULAR_BUFFER    100
 
 #define PRIf    ".3f"
 #define PRIbool PRIu8
@@ -47,14 +49,14 @@ typedef struct
     U32 newestIndex;
     
     FP oldValue;
-}LEVEL_CIRCULAR_BUFFER_T;
+}FILTER_CIRCULAR_BUFFER_T;;
 
 typedef struct
 {
     FP sum;
     FP movingAverage;
     U32 elementsInSum;
-}LEVEL_MOVING_AVERAGE_T;
+}FILTER_MOVING_AVERAGE_T;
 
 /******************************************************************************
 Exported variables
@@ -63,13 +65,16 @@ Exported variables
 /******************************************************************************
 Exported functions
 ******************************************************************************/
-void Filter_InitCircularBuffer(U32 bufferSize);
-void Filter_InitMovingAverage();
-void Filter_AddSomeValues(U32 n);
-void Filter_Update(FP data);
-void Filter_Reset(U32 bufferSize);
-void Filter_OutputBuffer();
-BOOL M_IsBufferFilled();
+void Filter_InitCircularBuffers(U32 bufferSize);
+void Filter_InitMovingAverages();
+void Filter_Update(U8 index, FP data);
+void Filter_Reset(U8 index, U32 bufferSize);
+void Filter_OutputBuffer(U8 index);
+void Filter_OutputBuffers();
+void Filter_OutputFilteredValues();
+void Filter_AddSomeValues(U8 index, U32 n);
+BOOL Filter_IsBufferFilled(U8 index);
+FP Filter_GetFilteredValue(U8 index);
 
 
 #endif

@@ -6,21 +6,22 @@
 
 int main(void)
 {
-    Filter_InitCircularBuffer(5);
-    Filter_InitMovingAverage(); 
-    Filter_OutputBuffer();
+    Filter_InitCircularBuffers(5);
+    Filter_InitMovingAverages(); 
+    Filter_OutputBuffers();
 
-    Filter_AddSomeValues(13);
-    Filter_OutputBuffer();
+    Filter_AddSomeValues(0, 13);
+    Filter_OutputBuffers();
  
-    Filter_Reset(0); 
-    Filter_OutputBuffer();
+    Filter_Reset(0, 0); 
+    Filter_OutputBuffers();
     
-    Filter_AddSomeValues(3);
-    Filter_OutputBuffer();
+    Filter_AddSomeValues(0, 3);
+    Filter_OutputBuffers();
 
-    Filter_Reset(3);
-    Filter_OutputBuffer();
+    Filter_AddSomeValues(2, 7);
+    Filter_OutputBuffers();
+    Filter_OutputFilteredValues();
     
     return 0;
 }
