@@ -49,14 +49,14 @@ typedef struct
     U32 newestIndex;
     
     FP oldValue;
-}LEVEL_CIRCULAR_BUFFER_T;
+}FILTER_CIRCULAR_BUFFER_T;
 
 typedef struct
 {
     FP sum;
     FP movingAverage;
     U32 elementsInSum;
-}LEVEL_MOVING_AVERAGE_T;
+}FILTER_MOVING_AVERAGE_T;
 
 /******************************************************************************
 Exported variables
@@ -66,12 +66,15 @@ Exported variables
 Exported functions
 ******************************************************************************/
 void Filter_InitCircularBuffers(U32 bufferSize);
-void Filter_InitMovingAverage();
+void Filter_InitMovingAverages();
+void Filter_Update(U8 index, FP data);
+BOOL Filter_IsBufferFilled(U8 index);
+FP Filter_GetFilteredValue(U8 index);
+void Filter_Reset(U8 index, U32 bufferSize);
 void Filter_OutputBuffer(U8 index);
 void Filter_OutputBuffers();
-void Filter_AddSomeValues(U32 n, U8 index);
-void Filter_Update(FP data, U8 index);
-void Filter_Reset(U32 bufferSize, U8 index);
-BOOL M_IsBufferFilled(U8 index);
+void Filter_OutputFilteredValues();
+void Filter_AddSomeValues(U8 index, U32 n);
+
 
 #endif

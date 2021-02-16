@@ -18,25 +18,25 @@ int main(void)
     Filter_Reset(2, 0);
     Filter_OutputBuffers(); printf("\n\n");
     
-    Filter_AddSomeValues(3, 0);
+    Filter_AddSomeValues(0, 3);
     Filter_OutputBuffers(); printf("\n\n");
 
-    Filter_Reset(10, 0);
+    Filter_Reset(0, 10);
     Filter_OutputBuffers(); printf("\n\n");
-    Filter_AddSomeValues(11, 0);
+    Filter_AddSomeValues(0, 11);
     Filter_OutputBuffers(); printf("\n\n");
 
-    Filter_Reset(3, 2);
+    Filter_Reset(2, 3);
     Filter_OutputBuffers();
     Filter_AddSomeValues(2, 2);
     Filter_OutputBuffers();
 
-    Filter_Reset(7, 4);
+    Filter_Reset(4, 7);
     Filter_OutputBuffers();
-    Filter_AddSomeValues(9, 4);
+    Filter_AddSomeValues(4, 9);
     Filter_OutputBuffers();
 
-    Filter_AddSomeValues(3, 2);
+    Filter_AddSomeValues(2, 3);
     Filter_OutputBuffers();
     
 
